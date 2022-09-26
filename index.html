@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identificador de idades</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <main>
+        <header>
+        <h1>Verificador de idades</h1>
+        </header>
+        <section>
+            <div>
+                <p>
+                    Ano de nascimento:
+                    <input type="number" name="inputAno" id="inputAno" min="0">
+                </p>
+                <p class="inputs">
+                    Sexo:
+                    <input type="radio" name="sexo" id="masculino" checked>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="sexo" id="femenino">
+                    <label for="femenino">Femenino</label>
+                </p>
+                <p>
+                    <input type="button" value="verificar" onclick="verificar()" class="verificar">
+                </p>
+            </div>
+            <div id="resultado">
+                Preencha os dados acima para ver o resultado
+                <img src="" alt="" id="imagem">
+            </div>
+        </section>
+            <footer>
+                <p>&copy; CursoEmVídeo</p>
+            </footer>
+    </main>
+
+        <script src="script.js"></script>
+</body>
+</html>
