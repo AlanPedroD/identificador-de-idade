@@ -19,7 +19,7 @@ function verificar(){
      genero = 'Homem';
 
     if(idade >= 0 && idade < 11){
-        img.src = "assets/image/menino-redondo"    
+        img.src = "assets/image/menino-redondo.png"    
     } else if(idade < 21){
         img.src = "assets/image/homem-jovem-red.png"
     } else if(idade < 40){
