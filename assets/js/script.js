@@ -19,30 +19,30 @@ function verificar(){
      genero = 'Homem';
 
     if(idade >= 0 && idade < 11){
-        img.src = "imagens/menino-redondo.png"    
+        img.src = "assets/image/menino-redondo"    
     } else if(idade < 21){
-        img.src = "imagens/homem-jovem-red.png"
+        img.src = "assets/image/homem-jovem-red.png"
     } else if(idade < 40){
-        img.src ="imagens/homem40red.png"
+        img.src ="assets/image/homem40red.png"
     } else if(idade < 60){
-        img.src = "imagens/homem50-red.png"
+        img.src = "assets/image/homem50-red.png"
     }else{
-        img.src = "imagens/velho-red.png"
+        img.src = "assets/image/velho-red.png"
     }
 
  } else if(sexo[1].checked){
      genero = 'Mulher';
 
      if(idade >= 0 && idade < 11){
-        img.src = "imagens/menina-redonda.png"
+        img.src = "assets/image/menina-redonda.png"
     } else if(idade < 21){
-        img.src = "imagens/mulher-jovem-red.png"
+        img.src = "assets/image/mulher-jovem-red.png"
     } else if(idade < 40){
-        img.src = "imagens/mulher40red.png"
+        img.src = "assets/image/mulher40red.png"
     } else if(idade < 60){
-        img.src = "imagens/mulher50-red.png"
+        img.src = "assets/image/mulher50-red.png"
     }else{
-        img.src = "imagens/velha-red.png"
+        img.src = "assets/image/velha-red.png"
     }
  }
 
